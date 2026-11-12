@@ -12,7 +12,7 @@ const CONFIG = {
       "Em primeiro lugar quero agradecer a Deus por ter te guardado ate aqui e por nos colocar na vida um do outro.",
        "E desejar-te um feliz aniversário meu amor, que continues sendo essa mulher alegre determinada e que sempre esta la pra ajudar.",
        "Tu tens sido um grande suporte na minha vida, me fizeste crescer em várias vertentes.",
-      " E contigo os dias normais ficam mais leves e os difíceis ficam melhores. O teu jeito de rir, de cuidar e de me olhar me faz querer ser melhor todos os dias.",
+      " E contigo na minha vida tudo ficou mais facil e perceptivel. O teu jeito de rir, de cuidar e de me olhar me faz querer ser melhor todos os dias.",
       "Este é um pequeno pedaço de tudo o que sinto. Espero que te faça sorrir o tanto quanto tu me fazes."
     ],
     assinatura: "Tuqburni amor, Plínio..."
