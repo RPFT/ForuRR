@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feliz aniversário</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎀</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="petalas" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="miolo hero-grade">
+      <div class="hero-texto">
+        <h1 id="titulo"></h1>
+        <p id="subtitulo" class="hero-sub"></p>
+      </div>
+      <figure class="polaroid hero-foto" id="capa"></figure>
+    </div>
+  </header>
+
+  <main>
+    <section class="secao" aria-labelledby="carta-titulo">
+      <div class="miolo">
+        <article class="papel" id="carta">
+          <h2 id="carta-titulo" class="mao"></h2>
+          <div id="carta-texto"></div>
+          <p id="carta-assinatura" class="mao assinatura"></p>
+        </article>
+      </div>
+    </section>
+
+    <section class="secao secao-rosa" aria-labelledby="nos-titulo">
+      <div class="miolo">
+        <h2 id="nos-titulo" class="secao-titulo"></h2>
+        <p id="nos-intro" class="secao-intro"></p>
+        <div class="mural" id="mural-nos"></div>
+      </div>
+    </section>
+
+    <section class="secao" aria-labelledby="ela-titulo">
+      <div class="miolo">
+        <h2 id="ela-titulo" class="secao-titulo"></h2>
+        <div id="ela-texto" class="secao-intro"></div>
+        <div class="arcos" id="arcos-ela"></div>
+      </div>
+    </section>
+
+    <section class="secao secao-pessego contador" aria-labelledby="contador-titulo">
+      <div class="miolo">
+        <h2 id="contador-titulo" class="secao-titulo"></h2>
+        <div class="tempo" id="tempo" role="timer" aria-live="off"></div>
+        <p id="mensagem-final" class="final"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p id="rodape"></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
